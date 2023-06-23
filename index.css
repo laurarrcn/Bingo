@@ -1,0 +1,126 @@
+body {
+    font-family: fantasy;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(236, 221, 193);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    background-color: rgb(1, 31, 1);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    height: 30px;
+    background-color:rgb(1, 31, 1) ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    
+}
+#players button{
+    margin: 2vh;
+    border-radius: 6px;
+    background-color: aliceblue;
+    color: black;
+    width: auto;
+    height: 5vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+
+  #Board button{
+    border-radius: 8px;
+    background-color: rgb(63, 113, 104);
+    color: black;
+    width: 10%;
+    height: 10vh;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+#players button:hover{
+    background-color: rgb(63, 113, 104);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .bingo-card td.center-cell {
+    background-color: rgb(7, 37, 7);
+    color: white;
+  }
+  
+  .bingo-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: calc(30.33% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #f0efef;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+  
+  .bingo-card:last-child {
+    margin-right: 0;
+  }
+  
+  .bingo-card h3 {
+    margin: 0;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    
+  }
+  
+  table td {
+    border: 1px solid #4e455a;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  table td.marked {
+    background-color: rgb(69, 160, 167);
+  }
+  #drawnNumbers h2 {
+    margin: 0;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 1em;
+  }
+  
+  #drawnList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  #drawnList div {
+    margin: 0px 15px;
+    height: 27px;
+    width: 27px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(69, 160, 167);
+    font-size: 20px;
+    margin: 5px;
+  }
