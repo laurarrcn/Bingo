@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bingo</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+  <header>
+    <h1>Bingo da Laura</h1>
+  </header>
+
+  
+  <div id="players">
+    
+    <input type="text" id="participantName" placeholder="Jogador">
+    <button onclick="addParticipant()">Adicionar Jogador</button>
+    <button onclick="restartGame()">Reiniciar </button>
+  </div>
+  
+
+  <div id="drawnNumbers">
+    <h2>Números tirados</h2>
+    <div id="drawnList"></div>
+  </div>
+
+  <div id="Board">
+    <button onclick="startGame()">Start</button>
+    <div id="boardContainer"></div>
+  </div>
+
+  
+
+<div id="winner"> 
+ <div id="winnerName"></div>
+ 
+
+ 
+
+  <script src="index.js"></script>
+  
+</body>
+<footer>
+    <h4>Developed by @laurarrcn </h4>
+</footer>
+</html>
